@@ -1,8 +1,10 @@
 <div align="center">
 
+<img src="docs/assets/swift-lessons-banner.png" alt="Swift Lessons: a practical Swift 6 curriculum from first principles to production" width="920">
+
 # Swift Lessons
 
-### A practical Swift curriculum, from first principles to production habits.
+### A practical Swift 6 curriculum, from first principles to production habits.
 
 **Swift 101 → 201 → 301 → 401 → 501 → 601**
 
@@ -12,13 +14,15 @@
 
 [Start learning](Curriculum/Swift-101/README.md) · [Browse the curriculum](docs/CURRICULUM.md) · [Run the capstone](Projects/StudyPlanner/README.md) · [Contribute](CONTRIBUTING.md)
 
+`swift` `swift6` `swiftui` `swiftdata` `uikit` `ios` `macos` `xcode` `concurrency` `async-await` `actors` `testing` `education`
+
 </div>
 
 ---
 
-**Swift Lessons** is an English-language learning path for developers who want to understand Swift, write working programs, and build reliable applications.
+**Swift Lessons** is a complete English-language learning path for developers who want to understand Swift 6, write working programs, and build reliable iOS and macOS applications. It is written for newcomers to the language and for working programmers who need a structured way to close gaps in modeling, concurrency, Apple UI, and testing.
 
-The course moves from values and optionals to modeling, generics, ownership, concurrency, networking, Apple UI, testing, and delivery. Each lesson explains a concept, walks through a complete example, identifies a common mistake, and provides an exercise with a solution direction.
+The course moves from values, control flow, and optionals to structs, enums, protocols, generics, ownership, async/await, actors, networking, files, SwiftUI, SwiftData, UIKit interoperability, architecture, performance, and delivery. Each lesson explains a concept, walks through a complete example, identifies a common mistake, and provides an exercise with a solution direction. Portable examples run on macOS and Linux; Apple samples target current SwiftUI and UIKit APIs.
 
 ## What is inside
 
