@@ -36,7 +36,7 @@ struct CatalogView: View {
                     Text("Swift \(course.id): \(course.title)")
                 }
             }
-            .navigationTitle("Swift Dersleri")
+            .navigationTitle("Swift Lessons")
             .navigationDestination(for: CourseRoute.self) { course in
                 Text(course.title)
                     .font(.title)
