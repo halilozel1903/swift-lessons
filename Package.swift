@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwiftDersleri",
+    name: "SwiftLessons",
     platforms: [.macOS(.v14)],
     products: [
         .library(name: "LearningCore", targets: ["LearningCore"]),
