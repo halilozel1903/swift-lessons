@@ -50,7 +50,7 @@ def main():
         entries = [entry for entry in entries if entry["source"] == f"Examples/{args.example}.swift"]
         if not entries:
             parser.error("Unknown example. See scripts/examples.json for valid paths.")
-    with tempfile.TemporaryDirectory(prefix="swift-dersleri-") as directory:
+    with tempfile.TemporaryDirectory(prefix="swift-lessons-") as directory:
         for index, entry in enumerate(entries):
             executable = Path(directory) / f"example-{index}"
             command = ["swiftc", "-swift-version", "6", "-warnings-as-errors"]
