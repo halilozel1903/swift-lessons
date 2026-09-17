@@ -1,0 +1,127 @@
+[
+  {
+    "source": "Examples/101/01-values-types.swift",
+    "expected": "Examples/101/01-values-types.expected",
+    "library": false
+  },
+  {
+    "source": "Examples/101/02-control-flow.swift",
+    "expected": "Examples/101/02-control-flow.expected",
+    "library": false
+  },
+  {
+    "source": "Examples/101/03-optionals.swift",
+    "expected": "Examples/101/03-optionals.expected",
+    "library": false
+  },
+  {
+    "source": "Examples/101/04-collections-strings.swift",
+    "expected": "Examples/101/04-collections-strings.expected",
+    "library": false
+  },
+  {
+    "source": "Examples/101/05-functions-closures.swift",
+    "expected": "Examples/101/05-functions-closures.expected",
+    "library": false
+  },
+  {
+    "source": "Examples/201/01-structs-enums.swift",
+    "expected": "Examples/201/01-structs-enums.expected",
+    "library": false
+  },
+  {
+    "source": "Examples/201/02-classes-properties.swift",
+    "expected": "Examples/201/02-classes-properties.expected",
+    "library": false
+  },
+  {
+    "source": "Examples/201/03-protocols-extensions.swift",
+    "expected": "Examples/201/03-protocols-extensions.expected",
+    "library": false
+  },
+  {
+    "source": "Examples/201/04-errors-codable.swift",
+    "expected": "Examples/201/04-errors-codable.expected",
+    "library": false
+  },
+  {
+    "source": "Examples/201/05-generics.swift",
+    "expected": "Examples/201/05-generics.expected",
+    "library": false
+  },
+  {
+    "source": "Examples/301/01-memory-ownership.swift",
+    "expected": "Examples/301/01-memory-ownership.expected",
+    "library": false
+  },
+  {
+    "source": "Examples/301/02-sequences-keypaths.swift",
+    "expected": "Examples/301/02-sequences-keypaths.expected",
+    "library": false
+  },
+  {
+    "source": "Examples/301/03-wrappers-builders.swift",
+    "expected": "Examples/301/03-wrappers-builders.expected",
+    "library": false
+  },
+  {
+    "source": "Examples/301/04-api-design.swift",
+    "expected": "Examples/301/04-api-design.expected",
+    "library": false
+  },
+  {
+    "source": "Examples/301/05-advanced-language.swift",
+    "expected": "Examples/301/05-advanced-language.expected",
+    "library": false
+  },
+  {
+    "source": "Examples/401/01-async-await.swift",
+    "expected": "Examples/401/01-async-await.expected",
+    "library": true
+  },
+  {
+    "source": "Examples/401/02-actors-sendable.swift",
+    "expected": "Examples/401/02-actors-sendable.expected",
+    "library": true
+  },
+  {
+    "source": "Examples/401/03-cancellation-streams.swift",
+    "expected": "Examples/401/03-cancellation-streams.expected",
+    "library": true
+  },
+  {
+    "source": "Examples/401/04-networking.swift",
+    "expected": "Examples/401/04-networking.expected",
+    "library": true
+  },
+  {
+    "source": "Examples/401/05-files-persistence.swift",
+    "expected": "Examples/401/05-files-persistence.expected",
+    "library": false
+  },
+  {
+    "source": "Examples/601/01-testing.swift",
+    "expected": "Examples/601/01-testing.expected",
+    "library": false
+  },
+  {
+    "source": "Examples/601/02-architecture.swift",
+    "expected": "Examples/601/02-architecture.expected",
+    "library": false
+  },
+  {
+    "source": "Examples/601/03-performance.swift",
+    "expected": "Examples/601/03-performance.expected",
+    "library": false
+  },
+  {
+    "source": "Examples/601/04-tooling-delivery.swift",
+    "expected": "Examples/601/04-tooling-delivery.expected",
+    "library": false
+  },
+  {
+    "source": "Examples/601/05-input-security.swift",
+    "expected": "Examples/601/05-input-security.expected",
+    "library": false
+  }
+]

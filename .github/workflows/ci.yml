@@ -1,0 +1,41 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  portable:
+    name: Swift 6 / Linux
+    runs-on: ubuntu-latest
+    container: swift:6.0.3-jammy
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install documentation checker runtime
+        run: apt-get update && apt-get install -y --no-install-recommends python3
+      - name: Toolchain
+        run: swift --version
+      - name: Build and test
+        run: swift test
+      - name: Verify lessons and documentation
+        run: python3 scripts/verify.py
+      - name: Run capstone
+        run: swift run study-planner
+  apple:
+    name: Swift 6 / Apple SDKs
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Toolchain
+        run: swift --version
+      - name: Build and test
+        run: swift test
+      - name: Verify lessons and documentation
+        run: python3 scripts/verify.py
+      - name: Type-check Apple examples
+        run: bash scripts/check-apple.sh
