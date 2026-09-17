@@ -1,12 +1,12 @@
 <div align="center">
 
-# Swift Dersleri
+# Swift Lessons
 
 ### A practical Swift curriculum, from first principles to production habits.
 
 **Swift 101 → 201 → 301 → 401 → 501 → 601**
 
-[![CI](https://github.com/halilozel1903/swift-dersleri/actions/workflows/ci.yml/badge.svg)](https://github.com/halilozel1903/swift-dersleri/actions/workflows/ci.yml)
+[![CI](https://github.com/halilozel1903/swift-lessons/actions/workflows/ci.yml/badge.svg)](https://github.com/halilozel1903/swift-lessons/actions/workflows/ci.yml)
 [![Swift](https://img.shields.io/badge/Swift-6-F05138?logo=swift&logoColor=white)](https://www.swift.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
@@ -16,7 +16,7 @@
 
 ---
 
-**Swift Dersleri** means “Swift Lessons.” This repository is an English-language learning path for developers who want to understand Swift, write working programs, and build reliable applications.
+**Swift Lessons** is an English-language learning path for developers who want to understand Swift, write working programs, and build reliable applications.
 
 The course moves from values and optionals to modeling, generics, ownership, concurrency, networking, Apple UI, testing, and delivery. Each lesson explains a concept, walks through a complete example, identifies a common mistake, and provides an exercise with a solution direction.
 
@@ -49,8 +49,8 @@ New to programming? Begin at 101 and allow extra time for the exercises. Already
 Install a [Swift 6 toolchain](https://www.swift.org/install/) and Python 3.10 or later for the verification scripts. On macOS, full Xcode is required for Apple framework checks. The portable examples and package are intended for macOS and Linux; Windows is not part of the CI matrix.
 
 ```bash
-git clone https://github.com/halilozel1903/swift-dersleri.git
-cd swift-dersleri
+git clone https://github.com/halilozel1903/swift-lessons.git
+cd swift-lessons
 swift --version
 swift test
 swift run study-planner
